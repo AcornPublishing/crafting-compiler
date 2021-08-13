@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Scanner", "Scanner\Scanner.vcxproj", "{5D82F0F9-593D-4AE5-A156-0D76E1173672}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Parser", "Parser\Parser.vcxproj", "{1F96C803-F0E2-414E-802A-DD0750667DDC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Interpreter", "Interpreter\Interpreter.vcxproj", "{990B6B80-D843-43E2-8273-BEDBC8CDDF3C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Generator", "Generator\Generator.vcxproj", "{42A5AE59-F017-40D6-8724-6A01D0382F06}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Machine", "Machine\Machine.vcxproj", "{3F053518-DF40-422A-9C58-03E830D79CAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Build|x86 = Build|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D82F0F9-593D-4AE5-A156-0D76E1173672}.Build|x86.ActiveCfg = Debug|Win32
+		{5D82F0F9-593D-4AE5-A156-0D76E1173672}.Build|x86.Build.0 = Debug|Win32
+		{1F96C803-F0E2-414E-802A-DD0750667DDC}.Build|x86.ActiveCfg = Debug|Win32
+		{1F96C803-F0E2-414E-802A-DD0750667DDC}.Build|x86.Build.0 = Debug|Win32
+		{990B6B80-D843-43E2-8273-BEDBC8CDDF3C}.Build|x86.ActiveCfg = Debug|Win32
+		{990B6B80-D843-43E2-8273-BEDBC8CDDF3C}.Build|x86.Build.0 = Debug|Win32
+		{42A5AE59-F017-40D6-8724-6A01D0382F06}.Build|x86.ActiveCfg = Debug|Win32
+		{42A5AE59-F017-40D6-8724-6A01D0382F06}.Build|x86.Build.0 = Debug|Win32
+		{3F053518-DF40-422A-9C58-03E830D79CAE}.Build|x86.ActiveCfg = Debug|Win32
+		{3F053518-DF40-422A-9C58-03E830D79CAE}.Build|x86.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01AFF4B3-15B5-4109-8BBF-4AA7ABE4A26E}
+	EndGlobalSection
+EndGlobal

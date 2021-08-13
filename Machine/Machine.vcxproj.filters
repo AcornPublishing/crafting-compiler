@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BuiltinFunctionTable.cpp" />
+    <ClCompile Include="Datatype.cpp" />
+    <ClCompile Include="Generator.cpp" />
+    <ClCompile Include="Machine.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="Scanner.cpp" />
+    <ClCompile Include="Token.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code.h" />
+    <ClInclude Include="Datatype.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="Token.h" />
+  </ItemGroup>
+</Project>

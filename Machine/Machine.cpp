@@ -5,6 +5,7 @@
 #include <functional>
 #include "Datatype.h"
 #include "Code.h"
+#include <cmath>
 
 using std::get;
 using std::any;

@@ -5,6 +5,7 @@
 #include <functional>
 #include "Datatype.h"
 #include "Node.h"
+#include <cmath>
 
 using std::any;
 using std::map;

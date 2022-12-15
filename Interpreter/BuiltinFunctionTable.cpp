@@ -4,6 +4,7 @@
 #include <vector>
 #include <functional>
 #include "Datatype.h"
+#include <cmath>
 
 using std::any;
 using std::map;

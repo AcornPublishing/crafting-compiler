@@ -70,9 +70,8 @@ auto execute(tuple<vector<Code>, map<string, size_t>> objectCode)->void {
       break;
     }
     case Instruction::Alloca: {
-      auto extraSize = toSize(code.operand);
-      auto currentSize = callStack.back().variables.size();
-      callStack.back().variables.resize(currentSize + extraSize);
+      auto localSize = toSize(code.operand);
+      callStack.back().variables.resize(localSize);
       break;
     }
     case Instruction::Return: {
